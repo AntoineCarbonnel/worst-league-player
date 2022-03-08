@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/worst-league-player/static/css/main.073c9b0a.css",
-    "main.js": "/worst-league-player/static/js/main.3a0dbc80.js",
+    "main.js": "/worst-league-player/static/js/main.4ff3e957.js",
     "static/js/787.030faf05.chunk.js": "/worst-league-player/static/js/787.030faf05.chunk.js",
     "static/media/logo.svg": "/worst-league-player/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/worst-league-player/index.html",
     "main.073c9b0a.css.map": "/worst-league-player/static/css/main.073c9b0a.css.map",
-    "main.3a0dbc80.js.map": "/worst-league-player/static/js/main.3a0dbc80.js.map",
+    "main.4ff3e957.js.map": "/worst-league-player/static/js/main.4ff3e957.js.map",
     "787.030faf05.chunk.js.map": "/worst-league-player/static/js/787.030faf05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3a0dbc80.js"
+    "static/js/main.4ff3e957.js"
   ]
 }
