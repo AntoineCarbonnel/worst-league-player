@@ -19,7 +19,7 @@ function Randomizer({getCurrentPlayer}) {
   useEffect(() => {
     // axios.get('lol/league/v4/entries/RANKED_SOLO_5x5/IRON/IV?pages=' + randomNumber(1, 25))
     //         .then(res => {
-    //
+    //              setPlayers(...res.data)
     //         })
   })
 
