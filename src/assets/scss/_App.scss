@@ -6,7 +6,9 @@
 
   header {
     @include flex(space-around);
+    position: sticky;
     padding: 20px 0;
+    top: 0;
 
     h2 {
       font-size: 1.5rem;
