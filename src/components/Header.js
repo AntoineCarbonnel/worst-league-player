@@ -13,7 +13,7 @@ function Header() {
 
   return (
           <header>
-            <Link to="/">
+            <Link to="worst-league-player">
               Home
             </Link>
             <h2>

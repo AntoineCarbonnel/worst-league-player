@@ -1,3 +1,9 @@
+# API URL
+[API](https://developer.riotgames.com/)
+
+# PROXY
+Mon proxy se limite à 50 requête par heures https://cors-anywhere.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
