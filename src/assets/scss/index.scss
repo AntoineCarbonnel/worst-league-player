@@ -1,0 +1,21 @@
+@import 'fonts';
+@import 'variables';
+@import 'App';
+
+html {
+  font-family: "Smooch Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 25px;
+  color: black;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+h1, h2, h3, body {
+  margin: 0;
+}
