@@ -3,7 +3,7 @@ import Randomizer from "../components/Randomizer";
 
 function Home() {
   return (
-          <div id="Home">
+          <div id="home">
             <Randomizer/>
           </div>
   )

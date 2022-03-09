@@ -1,5 +1,6 @@
-@import 'fonts';
 @import 'variables';
+@import 'fonts';
+@import 'home';
 @import 'App';
 
 html {
@@ -29,4 +30,20 @@ h1, h2, h3, body {
   width: 100%;
   margin: 0 auto;
   max-width: 1200px;
+}
+
+button {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  background-color: $red;
+  font-family: inherit;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 1rem;
+  min-width: 250px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: white;
 }
