@@ -1,5 +1,31 @@
 #app {
+  @include flex($align: space-between, $direction: column);
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/bg.jpeg");
+  background-attachment: fixed;
   min-height: 100vh;
-  background-color: $white;
+
+  header {
+    @include flex(space-around);
+    padding: 20px 0;
+
+    h2 {
+      font-size: 1.5rem;
+      span {
+        margin: 0 5px;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  #body {
+    flex-grow: 4;
+  }
+
+  footer {
+    padding: 20px 0;
+    .container {
+      text-align: center;
+    }
+  }
 
 }

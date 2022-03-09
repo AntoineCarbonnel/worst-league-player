@@ -1,15 +1,22 @@
-import React from "react";
+import React from "react"
+import {Link} from "react-router-dom"
 
 function Header() {
   return (
           <header>
-            <h1>
+            <Link to="/">
+              Home
+            </Link>
+            <h2>
               W
               <span>
                 P
               </span>
               L
-            </h1>
+            </h2>
+            <Link to="/favorites">
+              Favorites
+            </Link>
           </header>
   )
 }
