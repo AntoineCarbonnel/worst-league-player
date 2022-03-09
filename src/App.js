@@ -1,12 +1,15 @@
 import React from "react";
-import logo from './assets/img/logo.svg';
+
 import Header from "./components/Header";
+import Footer from "./components/Footer"
 
 function App() {
 
   return (
           <div id="app">
             <Header />
+
+            <Footer />
           </div>
   )
 }
