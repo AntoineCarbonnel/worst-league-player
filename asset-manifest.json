@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/worst-league-player/static/css/main.82921024.css",
-    "main.js": "/worst-league-player/static/js/main.18ab64d6.js",
+    "main.css": "/worst-league-player/static/css/main.6d2604b7.css",
+    "main.js": "/worst-league-player/static/js/main.6c997ac8.js",
     "static/js/787.030faf05.chunk.js": "/worst-league-player/static/js/787.030faf05.chunk.js",
     "static/media/bg.jpeg": "/worst-league-player/static/media/bg.a76ea8c912f6797e2345.jpeg",
     "static/media/SmoochSans-ExtraBold.svg": "/worst-league-player/static/media/SmoochSans-ExtraBold.367415789855e0c28d68.svg",
@@ -49,13 +49,14 @@
     "static/media/SmoochSans-ExtraLight.woff2": "/worst-league-player/static/media/SmoochSans-ExtraLight.144bb9fc9940208c8afc.woff2",
     "static/media/SmoochSans-Thin.woff2": "/worst-league-player/static/media/SmoochSans-Thin.93c3c230e1def02e5510.woff2",
     "static/media/SmoochSans-Black.woff2": "/worst-league-player/static/media/SmoochSans-Black.af126f19ec1a4b53c527.woff2",
+    "static/media/division.webp": "/worst-league-player/static/media/division.2963559106283de0c7eb.webp",
     "index.html": "/worst-league-player/index.html",
-    "main.82921024.css.map": "/worst-league-player/static/css/main.82921024.css.map",
-    "main.18ab64d6.js.map": "/worst-league-player/static/js/main.18ab64d6.js.map",
+    "main.6d2604b7.css.map": "/worst-league-player/static/css/main.6d2604b7.css.map",
+    "main.6c997ac8.js.map": "/worst-league-player/static/js/main.6c997ac8.js.map",
     "787.030faf05.chunk.js.map": "/worst-league-player/static/js/787.030faf05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82921024.css",
-    "static/js/main.18ab64d6.js"
+    "static/css/main.6d2604b7.css",
+    "static/js/main.6c997ac8.js"
   ]
 }
