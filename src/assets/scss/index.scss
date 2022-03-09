@@ -47,3 +47,7 @@ button {
   border: none;
   color: white;
 }
+
+article {
+  @include flex(space-between)
+}

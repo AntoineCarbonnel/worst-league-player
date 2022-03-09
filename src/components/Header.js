@@ -2,6 +2,15 @@ import React from "react"
 import {Link} from "react-router-dom"
 
 function Header() {
+
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 0) {
+      document.querySelector('header').classList.add('onScroll')
+    } else {
+      document.querySelector('header').classList.remove('onScroll')
+    }
+  })
+
   return (
           <header>
             <Link to="/">

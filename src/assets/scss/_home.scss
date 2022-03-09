@@ -1,5 +1,5 @@
 #home {
-  @include flex($align: flex-start);
+  @include flex(flex-start, $direction: column);
   padding: 50px 0;
 
   #randomizer {

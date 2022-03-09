@@ -1,26 +1,27 @@
-import React, {useState} from "react"
+import React, {useEffect, useState} from "react"
 
 const axios = require('axios').default
 
-function Randomizer() {
+function Randomizer({getCurrentPlayer}) {
   axios.defaults.baseURL = 'https://cors-anywhere.herokuapp.com/' + process.env.REACT_APP_API_URL
   axios.defaults.headers.common['X-Riot-Token'] = process.env.REACT_APP_API_KEY
 
   const [players, setPlayers] = useState([]);
+  const randomNumber = (min, max) => (Math.floor(Math.random() * (max - min) + min))
 
-  const randomNumber = (min, max) => (Math.floor(Math.random() * (max - min)) + min)
-
-  const findRandomPlayer = () => {
+  const findRandomPlayer = async () => {
+    await setPlayers([...[[{summonerName: 'zerckel'},{summonerName: 'zerckfzefaezeael'}],[{summonerName: 'zffz'}]]])
     const scopeNumber = randomNumber(0, players.length)
-    console.log(scopeNumber)
-    console.log(players.length)
-    return players[scopeNumber][randomNumber(0, scopeNumber)]
+    getCurrentPlayer(players[scopeNumber][randomNumber(0, players[scopeNumber].length)])
   }
 
-  axios.get('lol/league/v4/entries/RANKED_SOLO_5x5/IRON/IV?pages=' + randomNumber(1, 25))
-          .then(res => {
-            console.log(res)
-          })
+
+  useEffect(() => {
+    // axios.get('lol/league/v4/entries/RANKED_SOLO_5x5/IRON/IV?pages=' + randomNumber(1, 25))
+    //         .then(res => {
+    //
+    //         })
+  })
 
 
   return (
